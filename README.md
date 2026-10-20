@@ -1,5 +1,28 @@
 # Maildesk — public portfolio showcase
 
+## Technical documentation (current audit)
+
+**Audit date:** 20 October 2026 · **Release classification:** not a verified complete production application.
+
+**Current GitHub state:** Documentation only; the separately prepared premium app/auth foundation has not been committed or deployed.
+
+**Source/stack evidence:** Reviewed reference implementation uses Next.js 15, React 19, OpenNext/Workers and Supabase; Flutter/Swift mobile clients have separate release constraints.
+
+**Cloudflare state:** The Pages project hosts an earlier documentation deployment. A site-specific Turnstile widget and a shared `AUTH_DB` D1 binding have been provisioned, but a working application deployment and admin sign-in have not been verified. Secret values must never be committed to this public repository.
+
+**Engineering documentation:**
+
+- **[Complete architecture, folder tree, languages, API contracts and backend connections](docs/TECHNICAL_REFERENCE.md)**
+- **[Features, actual implementation status and acceptance requirements](docs/FEATURE_AND_RELEASE_MATRIX.md)**
+- **[Authentication, Turnstile, security controls, deployment and operations runbook](docs/SECURITY_AND_OPERATIONS.md)**
+- [Source verification and NDA boundaries](docs/SOURCE_VERIFICATION.md)
+- [Existing platform/device support notes](docs/DEVICE_PREVIEW.md)
+
+All projects use the portfolio credit **[Developed and Designed by Jelvan®](https://portfolio.jelvan.pro)** for independently authored public work. This does not transfer ownership of third-party/client deliverables.
+
+---
+
+
 **Multi-platform mail workspace — web plus mobile client references**  
 **Curated by Jelvan R. · Public documentation, not the original source repository.**
 
