@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "projectId": "maildesk",
+  "name": "Maildesk",
+  "publicShowcase": true,
+  "presentationOwner": "Jelvan R.",
+  "unaffiliatedPublication": true,
+  "documentationOnly": true,
+  "sourceCodeIncluded": false,
+  "productionEquivalent": false,
+  "ndaAdapted": true,
+  "lastReviewed": "2026-10-20",
+  "verifiedStatus": "Web source implementation documented; Android production API compatibility gap noted in source; iOS remains scaffold/API client.",
+  "portfolio": {
+    "section": "Projects / Apps",
+    "portfolioHome": "https://portfolio.jelvan.pro",
+    "viewerModes": {
+      "macos": {
+        "displayType": "web-in-browser",
+        "enabledAsLiveIframe": false,
+        "approvedDemoUrl": null
+      },
+      "web": {
+        "displayType": "web-reference",
+        "enabledAsLiveIframe": false,
+        "approvedDemoUrl": null
+      },
+      "ios": {
+        "displayType": "native-scaffold-not-public-demo",
+        "enabledAsLiveIframe": false,
+        "approvedDemoUrl": null
+      },
+      "android": {
+        "displayType": "flutter-client-api-mismatch",
+        "enabledAsLiveIframe": false,
+        "approvedDemoUrl": null
+      }
+    },
+    "showUrlInViewer": false,
+    "allowOpenExternal": false,
+    "allowCopyUrl": false,
+    "previewFallback": "approved-local-screenshot-or-explanatory-placeholder"
+  }
+}
