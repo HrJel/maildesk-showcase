@@ -1,3 +1,19 @@
+## New login and protected dashboard source — 21 October 2026
+
+These are **new independent showcase screens**, not the original/client product or a verified production release. The images below are vector **illustrative previews**, not live-session screenshots.
+
+![Login screen UI preview](assets/screenshots/login.svg)
+
+![Dashboard UI preview](assets/screenshots/dashboard.svg)
+
+**Source features:** Synthetic message records; list/search/status workflow; D1 scoped persistence; user administration; server-gated login and admin interface, Turnstile verification and scoped D1-backed session/workspace foundation.
+
+**Not implemented:** Real mailbox sync, SMTP sending, inbound/outbound transport, Android API and iOS releases are not implemented.
+
+See [security implementation, deployment and acceptance checklist](docs/APP_SECURITY_AND_SETUP.md) and [database schema](schema.sql). Requires Cloudflare staging configuration and security verification before serving real accounts.
+
+---
+
 # Maildesk — public portfolio showcase
 
 ## Technical documentation (current audit)
